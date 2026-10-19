@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>Canopy</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>Canopy</string>
+	<key>CFBundleDisplayName</key>
+	<string>Canopy</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIconFile</key>
+	<string>Canopy</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Canopy</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Capture the screen region you select into your private screenshot shelf.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Transcribe meeting audio playing on your Mac when you choose Start listening. No audio file is saved.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Include your voice only when you choose a microphone audio source. No audio file is saved.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Write meeting transcripts using on-device speech recognition.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CanopyPrivacyPolicyURL</key>
+	<string>$(CANOPY_PRIVACY_POLICY_URL)</string>
+	<key>CanopySupportURL</key>
+	<string>$(CANOPY_SUPPORT_URL)</string>
+</dict>
+</plist>

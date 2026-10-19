@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src data:; connect-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+  <link rel="stylesheet" href="editor.css">
+  <title>Meeting notes</title>
+</head>
+<body>
+  <div class="toolbar" role="toolbar" aria-label="Note formatting">
+    <select id="block-type" aria-label="Text style">
+      <option value="text">Text</option><option value="h1">Heading</option><option value="h2">Subheading</option>
+      <option value="tasks">To-do list</option><option value="bullets">Bullet list</option><option value="numbers">Numbered list</option><option value="quote">Quote</option>
+    </select>
+    <span class="separator"></span>
+    <button id="bold" title="Bold · ⌘B" aria-label="Bold"><b>B</b></button>
+    <button id="italic" title="Italic · ⌘I" aria-label="Italic"><i>I</i></button>
+    <button id="link" title="Add or edit link · ⌘K" aria-label="Add or edit link">↗</button>
+    <span class="spacer"></span><span class="hint">Type / to add</span>
+  </div>
+  <main id="canvas"><div id="editor"></div></main>
+  <div id="slash-menu" role="listbox" aria-label="Insert block" hidden></div>
+  <form id="link-form" role="dialog" aria-label="Edit link" hidden>
+    <label for="link-address">Link address</label>
+    <input id="link-address" type="text" placeholder="https://…" autocomplete="off">
+    <p id="link-error" hidden>Enter a valid http or https web address.</p>
+    <div><button type="button" id="link-cancel">Cancel</button><button type="button" id="link-remove">Remove</button><button type="submit" class="primary">Save</button></div>
+  </form>
+  <script src="editor.js"></script>
+</body>
+</html>

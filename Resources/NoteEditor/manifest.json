@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "sources": {
+    "EditorWeb/build.mjs": "44cd40b42a9c32947752b4f3e87553657a23a87604535a5baeebbcce5d84586b",
+    "EditorWeb/package.json": "b32fe9357d247513bad86540f6cce4cf4bbbbab1f818b0581c7fff58d727e0b9",
+    "EditorWeb/package-lock.json": "c46656c455aa85f31c8a6a654a552b2d36baec21ce6545899f9e9cf400c09047",
+    "EditorWeb/src/editor.mjs": "de2b6c023a2a6f89e69dee54d3cc75439da09d328fb57107e7d3ad14f3ba5ab5",
+    "EditorWeb/src/document.mjs": "f48518f6d033fff3259f20bf7a47fae5612bffb91cf6afcf313c892e74874f96",
+    "EditorWeb/src/index.html": "b3a3c2b13f62f316f8aa23cbbf8b50a3c16567b8e9a697993007fce913874287",
+    "EditorWeb/src/editor.css": "e65f46df97ab24e893e1807b81d7351f5c02a78ae58c152c1e0fd9b1ab09fb80"
+  },
+  "outputs": {
+    "index.html": "b3a3c2b13f62f316f8aa23cbbf8b50a3c16567b8e9a697993007fce913874287",
+    "editor.css": "e65f46df97ab24e893e1807b81d7351f5c02a78ae58c152c1e0fd9b1ab09fb80",
+    "editor.js": "7b7d2b0461332d88b679a72ed1b09a773915b3ed431e2bb40946eed4366c6469",
+    "ThirdPartyNotices.txt": "f1dfb4ece8bee01e98e15903bd934b3165a9a81b46d8f508a35c43a804039b49"
+  }
+}

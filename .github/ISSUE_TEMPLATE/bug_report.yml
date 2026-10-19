@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible problem using synthetic data.
+body:
+  - type: markdown
+    attributes:
+      value: "Please exclude private screenshots, meeting transcripts, credentials, and signing details. Report security vulnerabilities privately using SECURITY.md."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: macOS version, Mac architecture, Canopy commit/version, and direct or sandboxed build.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include expected and actual behavior, plus synthetic sample data if helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Error or diagnostic details
+      description: Include the exact error and relevant sanitized output. Check attachments for private information first.

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>Canopy</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.canopy.desktop</string>
+	<key>CFBundleName</key>
+	<string>Canopy</string>
+	<key>CFBundleDisplayName</key>
+	<string>Canopy</string>
+	<key>CFBundleVersion</key>
+	<string>21</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.5.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIconFile</key>
+	<string>Canopy</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Canopy uses ScreenCaptureKit to transcribe meeting audio from other apps when you choose Start listening. No screen video or audio recording is saved.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Canopy transcribes meeting audio from other apps on your Mac when you choose Start listening. No audio file is saved.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Canopy transcribes your microphone locally when you start a meeting. No audio file is saved.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Canopy uses on-device speech recognition to write your meeting transcript.</string>
+</dict>
+</plist>

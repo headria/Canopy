@@ -1,0 +1,19 @@
+// First public-release candidate. Set the team in Xcode Signing & Capabilities.
+PRODUCT_NAME = Canopy
+PRODUCT_BUNDLE_IDENTIFIER = com.canopy.desktop.appstore
+DEVELOPMENT_TEAM =
+MARKETING_VERSION = 1.0
+CURRENT_PROJECT_VERSION = 24
+MACOSX_DEPLOYMENT_TARGET = 26.0
+SWIFT_VERSION = 5.0
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) CANOPY_APP_STORE
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_ENTITLEMENTS = Resources/AppStore.entitlements
+ENABLE_APP_SANDBOX = YES
+ENABLE_HARDENED_RUNTIME = YES
+INFOPLIST_FILE = Resources/StoreInfo.plist
+GENERATE_INFOPLIST_FILE = NO
+COMBINE_HIDPI_IMAGES = YES
+// Public production pages. $() preserves // in xcconfig URLs.
+CANOPY_PRIVACY_POLICY_URL = https:/$()/canopy-shelf-notes.vercel.app/privacy.html
+CANOPY_SUPPORT_URL = https:/$()/canopy-shelf-notes.vercel.app/support.html
